@@ -23,5 +23,5 @@ public:
 	TSoftObjectPtr<UTexture2D> Icon;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TSoftObjectPtr<UStaticMesh> Mesh;
+	TSubclassOf<AActor> Mesh;
 };

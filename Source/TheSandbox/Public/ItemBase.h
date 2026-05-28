@@ -28,8 +28,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Item")
 	void ModifyQuantity(int32 Amount);
 
-	UFUNCTION(BlueprintPure, Category = "Item")
-	bool HasFragment(TSubclassOf<UItemFragment> FragmentClass) const
+	UFUNCTION(BlueprintPure, Category = "Item", meta = (DeterminesOutputType = "fragment"))
+	bool HasFragment(TSubclassOf<UItemFragment> FragmentClass, UItemFragment*& fragment) const
 	{
 		if (!*FragmentClass)
 		{
@@ -40,6 +40,7 @@ public:
 		{
 			if (IsValid(Fragment) && Fragment->IsA(FragmentClass))
 			{
+				fragment = Fragment;
 				return true;
 			}
 		}
