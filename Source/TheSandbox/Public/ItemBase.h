@@ -15,6 +15,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FItemStruct ItemData;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UInventoryBase* InventoryContext;
 
 	UPROPERTY(EditAnywhere, Instanced, BlueprintReadWrite, Category = "Inventory")
 	TArray<TObjectPtr<UItemFragment>> ItemFragments;

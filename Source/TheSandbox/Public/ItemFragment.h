@@ -17,7 +17,19 @@ class THESANDBOX_API UItemFragment : public UObject
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item Fragment")
 	FString ID;
+	
+	UPROPERTY(BlueprintReadWrite, Category = "Item Fragment")
+	UItemBase* itemContext;	
+	
+	UPROPERTY(BlueprintReadWrite, Category = "Item Fragment")
+	UInventoryBase* inventoryContext;
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Item Fragment")
+	void Initialize(UItemBase* itemBase, UInventoryBase* inventoryBase);
+	
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Item Fragment")
-	FResponse Pass_ItemToBeAddedToInventory(UInventoryBase* InventoryContext, bool HasExistingSlot, UItemBase* existingSlot, UItemBase*& overrideSlot);
+	FResponse Pass_ItemToBeRemovedFromInventory(UInventoryBase* inventoryBase, UItemBase* item);
+	
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Item Fragment")
+	FResponse Pass_ItemToBeAddedToInventory(UInventoryBase* inventoryBase, bool HasExistingSlot, UItemBase* existingSlot, UItemBase*& overrideSlot);
 };
