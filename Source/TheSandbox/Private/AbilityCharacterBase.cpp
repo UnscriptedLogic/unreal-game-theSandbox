@@ -2,6 +2,7 @@
 
 
 #include "AbilitySystemComponent.h"
+#include "BasicAttributeSet.h"
 #include "AbilityCharacterBase.h"
 
 // Sets default values
@@ -13,6 +14,8 @@ AAbilityCharacterBase::AAbilityCharacterBase()
 	AbilitySystemComponent = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
 	AbilitySystemComponent->SetIsReplicated(true);
 	AbilitySystemComponent->SetReplicationMode(ReplicationMode);
+	
+	BasicAttributeSet = CreateDefaultSubobject<UBasicAttributeSet>(TEXT("BasicAttributeSet"));
 }
 
 // Called when the game starts or when spawned

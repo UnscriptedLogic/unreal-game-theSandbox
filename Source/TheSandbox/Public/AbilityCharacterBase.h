@@ -28,7 +28,10 @@ protected:
 	
 public:	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Ability System")
-	class UAbilitySystemComponent* AbilitySystemComponent;
+	UAbilitySystemComponent* AbilitySystemComponent;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributes")
+	class UBasicAttributeSet* BasicAttributeSet;
 	
 	virtual void Tick(float DeltaTime) override;
 
