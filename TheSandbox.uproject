@@ -225,7 +225,7 @@
 		},
 		{
 			"Name": "VisualStudioTools",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64"
 			],
@@ -238,6 +238,13 @@
 		{
 			"Name": "TargetingSystem",
 			"Enabled": true
+		},
+		{
+			"Name": "VisualStudioSourceCodeAccess",
+			"Enabled": false
 		}
+	],
+	"TargetPlatforms": [
+		"Windows"
 	]
 }

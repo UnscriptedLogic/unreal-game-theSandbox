@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>D3CC49D2465CB5076CAEBEB1A751D6C5</ExecutionGuid>
+<CrashGUID>UECC-Windows-E70CFE7E4BA100C8A36EED8D5A4545E7_0000</CrashGUID>
+<IsEnsure>true</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<ErrorMessage>Ensure condition failed: false  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\SceneUtils.cpp] [Line: 95] 
+Unknown anti-aliasing method.
+Stack: 
+0x00007ff74dc020ab TheSandbox.exe!`FSimpleElementCollector::IsHitTesting&apos;::`5&apos;::&lt;lambda_1&gt;::operator()() []
+0x00007ff7499eac7e TheSandbox.exe!GetDefaultAntiAliasingMethod() []
+0x00007ff749a0cbf4 TheSandbox.exe!FSceneView::SetupAntiAliasingMethod() []
+0x00007ff7499cd9ac TheSandbox.exe!FSceneView::FSceneView() []
+0x00007ff74934df2e TheSandbox.exe!ULocalPlayer::CalcSceneView() []
+0x00007ff7490fbfd1 TheSandbox.exe!UGameViewportClient::Draw() []
+0x00007ff749ddc175 TheSandbox.exe!FViewport::Draw() []
+0x00007ff749bad6c8 TheSandbox.exe!FSceneViewport::ResizeViewport() []
+0x00007ff749bab0c8 TheSandbox.exe!FSceneViewport::ResizeFrame() []
+0x00007ff74908aefc TheSandbox.exe!UGameEngine::SwitchGameWindowToUseGameViewport() []
+0x00007ff748051029 TheSandbox.exe!FDefaultGameMoviePlayer::WaitForMovieToFinish() []
+0x00007ff74a2aa7b9 TheSandbox.exe!FEngineLoop::Init() []
+0x00007ff74a2be31e TheSandbox.exe!GuardedMain() []
+0x00007ff74a2be4ba TheSandbox.exe!GuardedMainWrapper() []
+0x00007ff74a2c11b2 TheSandbox.exe!LaunchWindowsStartup() []
+0x00007ff74a2ce0c4 TheSandbox.exe!WinMain() []
+0x00007ff74d90a3a6 TheSandbox.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+0x00007ff82c0ce957 KERNEL32.DLL!UnknownFunction []
+0x00007ff82dd87c1c ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage>Attended</CrashReporterMessage>
+<ProcessId>24356</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>false</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-TheSandbox</GameName>
+<ExecutableName>TheSandbox</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.5.4-40574608+++UE5+Release-5.5</EngineVersion>
+<EngineCompatibleVersion>5.5.4-40574608+++UE5+Release-5.5</EngineCompatibleVersion>
+<CommandLine> TheSandbox</CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.5-CL-40574608</BuildVersion>
+<Symbols>**UE5*Release-5.5-CL-40574608-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/nathan/Documents/GameDevStuff/unreal-game-theSandbox/Builds/Windows/TheSandbox/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/nathan/Documents/GameDevStuff/unreal-game-theSandbox/Builds/Windows/</RootDir>
+<MachineId>34CC92D8417DCC931ACEDCB46D6461CB</MachineId>
+<LoginId>34cc92d8417dcc931acedcb46d6461cb</LoginId>
+<EpicAccountId>d65c7e5d89144ddab2b014f1daf2b8bb</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>14</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>20</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>12th Gen Intel(R) Core(TM) i7-12700H</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) Iris(R) Xe Graphics</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 11 (25H2) [10.0.26200.8655]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>34087686144</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>47484456960</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>8430772224</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>11296526336</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>658206720</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>666173440</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>768434176</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>768434176</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>7</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+TheSandbox  0x00007ff741770000 + c4920ab         
+TheSandbox  0x00007ff741770000 + 827ac7e         
+TheSandbox  0x00007ff741770000 + 829cbf4         
+TheSandbox  0x00007ff741770000 + 825d9ac         
+TheSandbox  0x00007ff741770000 + 7bddf2e         
+TheSandbox  0x00007ff741770000 + 798bfd1         
+TheSandbox  0x00007ff741770000 + 866c175         
+TheSandbox  0x00007ff741770000 + 843d6c8         
+TheSandbox  0x00007ff741770000 + 843b0c8         
+TheSandbox  0x00007ff741770000 + 791aefc         
+TheSandbox  0x00007ff741770000 + 68e1029         
+TheSandbox  0x00007ff741770000 + 8b3a7b9         
+TheSandbox  0x00007ff741770000 + 8b4e31e         
+TheSandbox  0x00007ff741770000 + 8b4e4ba         
+TheSandbox  0x00007ff741770000 + 8b511b2         
+TheSandbox  0x00007ff741770000 + 8b5e0c4         
+TheSandbox  0x00007ff741770000 + c19a3a6         
+KERNEL32    0x00007ff82c0a0000 + 2e957           
+</PCallStack>
+<PCallStackHash>2B7187279C12BE8E8A3A9FB1BD6924D9BB5E02C8</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformIsRunningWine>false</PlatformIsRunningWine>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<DriveStats.Project.Name>C:/Users/nathan/Documents/GameDevStuff/unreal-game-theSandbox/Builds/Windows/TheSandbox/Binaries/Win64/</DriveStats.Project.Name>
+<DriveStats.Project.Type>NVMe</DriveStats.Project.Type>
+<DriveStats.Project.FreeSpaceKb>3978104</DriveStats.Project.FreeSpaceKb>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Aftermath>false</RHI.Aftermath>
+<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 3050 Ti Laptop GPU</RHI.AdapterName>
+<RHI.UserDriverVersion>546.33</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>31.0.15.4633</RHI.InternalDriverVersion>
+<RHI.DriverDate>12-6-2023</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>25A0</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
