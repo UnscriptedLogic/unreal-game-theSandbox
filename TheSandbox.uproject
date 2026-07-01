@@ -242,6 +242,11 @@
 		{
 			"Name": "VisualStudioSourceCodeAccess",
 			"Enabled": false
+		},
+		{
+			"Name": "SimpleVoiceChat",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.fab.com/portal/listings/224b456b-fae4-4856-9e0c-6b2ee8d186fb"
 		}
 	],
 	"TargetPlatforms": [
