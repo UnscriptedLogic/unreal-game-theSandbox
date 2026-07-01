@@ -73,3 +73,5 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Builds/Windows/TheSandbox/Binaries/Win64/TheSandbox.pdb
+Builds/Windows/TheSandbox/Content/Paks/TheSandbox-Windows.ucas
