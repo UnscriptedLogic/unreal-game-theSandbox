@@ -173,6 +173,27 @@ struct THESANDBOX_API FQuestion
 };
 
 USTRUCT(BlueprintType)
+struct THESANDBOX_API FQuestionSetGenerationOptions
+{
+	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Question", meta = (ClampMin = "0"))
+	int32 QuestionCount = 0;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Question")
+	int32 RandomSeed = 0;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Question")
+	bool bUseRandomSeed = true;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Question")
+	bool bRandomizeAnswerOptions = true;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Question")
+	bool bLinkQuestionsSequentially = true;
+};
+
+USTRUCT(BlueprintType)
 struct THESANDBOX_API FQuestionSubmittedAnswer
 {
 	GENERATED_BODY()
