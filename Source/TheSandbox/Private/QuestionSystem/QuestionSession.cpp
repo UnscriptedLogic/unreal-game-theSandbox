@@ -42,7 +42,7 @@ void UQuestionSession::EndSession()
 	{
 		return;
 	}
-
+	
 	bSessionActive = false;
 	CurrentQuestionId = NAME_None;
 	OnQuestionSessionEnded.Broadcast();
